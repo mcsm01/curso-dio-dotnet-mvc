@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CursoMVC-Mayra" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mayra\\OneDrive\\Área\ de\ Trabalho\\curso\ Digital\ Innovation\\dev\.\ aplic\.\ com\ \.Net\\CursoMVC\\CursoMVC\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="CursoMVC.Models.Context" description="" value="Data Source=tcp:cursomvc-mayradbserver.database.windows.net,1433;Initial Catalog=CursoMVC-Mayra_db;User Id=mayra@cursomvc-mayradbserver;Password=99932199mA" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\mayra\\OneDrive\\Área\ de\ Trabalho\\curso\ Digital\ Innovation\\dev\.\ aplic\.\ com\ \.Net\\CursoMVC\\CursoMVC\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\CursoMVC\.Models\.Context\.sql$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAymP6igNecEmLEu5vTbQj0AAAAAACAAAAAAAQZgAAAAEAACAAAAAEeBcZMg2Su75DxvM4Zf0mjG530UtX3qga0qHVtdd4IgAAAAAOgAAAAAIAACAAAACbkB2Jem0RcnWo6BNatyqbCKgXk9tEJDRxQZ0RZ49PLoAAAABPNxPAZPPIxLca+Hf2MJ4Ad/REh1BelMfulweT6tdhfTLchnPu2BVnmxMoD7eW0hHSQzQgUGjHkCIJjUYrKkE6dTi3PX+O0yah5A/DxAzc7StJAnaRjXPGoem+ykEMkjiYym4EPkOuu2l7ASxvG/icoA2tOALVQdyz1LVpHr7ir0AAAADTFyGKQrr/iVjZpJarqbz/Nic4Es60iWcygXpx9QuZG9RpUlaPYXGLDkEmuiB4FsQohh+0I+u3MgMdN3xjbPJI</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursomvc-mayradbserver.database.windows.net,1433%3bInitial Catalog=CursoMVC-Mayra_db%3bUser Id=mayra%40cursomvc-mayradbserver%3bPassword=99932199mA</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
